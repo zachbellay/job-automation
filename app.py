@@ -60,7 +60,7 @@ iface = gr.Interface(
         gr.inputs.Textbox(label="Job description"),
     ],
     outputs=[
-        gr.Textbox(label="How this job may be automated by AI"),
+        gr.outputs.Textbox(label="How this job may be automated by AI"),
     ],
     title="Job Automation by AI", 
     description="A simple app to predict how certain jobs may be automated by AI, as predicted by an AI. (Note: this is using GPT-2, and would be substantially better with GPT-3 or GPT-J-6B, but those models are not free and are too big for my macbook air to run.)",

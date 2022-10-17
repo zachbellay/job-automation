@@ -1,10 +1,10 @@
 ---
 title: Job Automation
-emoji: ⚡
+emoji: 🤖
 colorFrom: blue
 colorTo: red
-sdk: streamlit
-sdk_version: 1.10.0
+sdk: gradio
+sdk_version: 3.5
 app_file: app.py
 pinned: false
 ---
