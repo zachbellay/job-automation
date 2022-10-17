@@ -2,8 +2,8 @@ from transformers import pipeline, set_seed
 import gradio as gr
 
 
-# generator = pipeline('text-generation', model='gpt2')
-generator = pipeline('text-generation', model='EleutherAI/gpt-j-2.7B')
+generator = pipeline('text-generation', model='gpt2')
+# generator = pipeline('text-generation', model='EleutherAI/gpt-j-2.7B')
 
 # ideally we would use a larger model but it's either not free or too big for my macbook air lol
 # generator = pipeline('text-generation', model='EleutherAI/gpt-j-6B')
